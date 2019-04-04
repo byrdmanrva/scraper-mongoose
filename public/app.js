@@ -2,7 +2,7 @@ $.getJSON("/articles", function(data) {
     for (var i = 0; i < data.length; i++) {
         $("#articles").prepend("<div data-id='" + data[i]._id + "'>" + "<h2>" + data[i].title + "</h2><a href=https://snowboarding.transworld.net" + data[i].link + "'>Read Article</a><br><button class='btn btn-outline-success btn-sm' id='makenote' data-id='" + data[i]._id + "'>Make Note</button><button class='btn btn-outline-success btn-sm' id='viewnote' data-id='" + data[i]._id + "'>View Note</button></div>");
     }
-  });
+});
 
 $(document).on("click", "#scrape", function () {
     $("#articles").empty();
