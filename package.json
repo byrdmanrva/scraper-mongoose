@@ -1,0 +1,17 @@
+{
+   "name": "snowboardnews",
+   "version": "1.0.0",
+   "description": "Scrape for snowboard news!",
+   "main": "server.js",
+   "dependencies": {
+      "axios": "^0.18.0",
+      "cheerio": "^1.0.0-rc.2",
+      "dotenv": "^6.2.0",
+      "express": "^4.16.3",
+      "mongoose": "^5.4.22",
+      "morgan": "^1.9.1"
+   },
+   "scripts": {
+      "start": "node server.js"
+   }
+}
