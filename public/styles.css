@@ -1,0 +1,57 @@
+#headline {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 300%
+}
+
+#articles {
+    overflow: auto; 
+    height: 700px;
+    border: solid 1px rgb(194, 194, 194);
+    padding: 15px;
+}
+
+#notes {
+    float: right;
+    width: 30%;
+}
+
+textarea, input {
+    display: block;
+    width: 100%;
+    background-color: #FCF5C7;
+}
+
+input {
+    height: 36px;
+    font-size: 24px;
+}
+
+#bodyinput {
+    margin-top: 5px;
+    height: 200px;
+    font-size: 18px;
+}
+
+#savenote {
+    margin-top: 5px;
+}
+
+#notetitle {
+    font-weight: bolder;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 175%
+}
+
+.notetext {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 125%
+}
+
+#viewnote {
+    margin-left: 5px;
+}
+
+#scrape {
+    margin-bottom: 30px;
+}
