@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/scrapeHomework", { useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost/scrapeHomework", { useNewUrlParser: true });
 
 app.get("/scrape", function(req, res) {
     axios.get("https://snowboarding.transworld.net/news/").then(function(response) {
